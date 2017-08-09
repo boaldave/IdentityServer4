@@ -34,18 +34,18 @@ TODO:
 ## To start IdentityServer4 Authentication Server
 This enables Authorization WebApi calls and MVC UI's for "Login" and "Claims Consent".
 
-Clone this IdentityServer4 repo.
-Checkout the DaveDemo Branch
-Rebuild the IdentityServer.sln
-Set the "Host" project as Startup Project
-Here is an optional step if you want to override defaults port:
+- Clone this IdentityServer4 repo.
+- Checkout the DaveDemo Branch
+- Rebuild the IdentityServer.sln
+- Set the "Host" project as Startup Project
+- Here is an optional step if you want to override defaults port:
 ```csharp
   var host = new WebHostBuilder()
           .UseKestrel()
           .UseUrls("http://localhost:5000")
           ....etc
 ```
-Start the site:
+- Start the site:
 ```cmd
 c:\> cd C:\YourSourceFolder\IdentityServer4
 C:\YourSourceFolder\IdentityServer4> cd src\host
