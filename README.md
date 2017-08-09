@@ -59,6 +59,9 @@ C:\YourSourceFolder\IdentityServer4> dotnet run
 ## To Login:
 http://localhost:5000/account/login
 
+Test Users:
+https://github.com/boaldave/IdentityServer4/blob/DaveDemo/src/Host/Quickstart/TestUsers.cs
+
 ## Comments:
 Once you realize that Identity Server 4 can be implemented as one or more applications, you may decide to split "Identity Server 4" into the 3 individual applications and host them on separate servers. For the purpose of this demo, the 3 applications that are intended to be deployed as one Authentication Server are: 
 - ASP.Net Core MVC Login UI
